@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		738709E22A2912F500B78220 /* HologramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738709E12A2912F500B78220 /* HologramApp.swift */; };
-		738709E42A2912F500B78220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738709E32A2912F500B78220 /* ContentView.swift */; };
-		738709E62A2912F500B78220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738709E52A2912F500B78220 /* Assets.xcassets */; };
-		738709E92A2912F500B78220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738709E82A2912F500B78220 /* Preview Assets.xcassets */; };
-		738709F02A29142C00B78220 /* HologramShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738709EF2A29142C00B78220 /* HologramShape.swift */; };
-		738709F22A2915EC00B78220 /* HologramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738709F12A2915EC00B78220 /* HologramView.swift */; };
-		738709F42A29161500B78220 /* HologramEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738709F32A29161500B78220 /* HologramEffect.swift */; };
+		730341B72A2923F800A146F7 /* CreditCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730341B62A2923F800A146F7 /* CreditCardApp.swift */; };
+		730341B92A2923F800A146F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730341B82A2923F800A146F7 /* ContentView.swift */; };
+		730341BB2A2923F800A146F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730341BA2A2923F800A146F7 /* Assets.xcassets */; };
+		730341BE2A2923F800A146F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730341BD2A2923F800A146F7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		738709DE2A2912F500B78220 /* Hologram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hologram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		738709E12A2912F500B78220 /* HologramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HologramApp.swift; sourceTree = "<group>"; };
-		738709E32A2912F500B78220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		738709E52A2912F500B78220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		738709E82A2912F500B78220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		738709EF2A29142C00B78220 /* HologramShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HologramShape.swift; sourceTree = "<group>"; };
-		738709F12A2915EC00B78220 /* HologramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HologramView.swift; sourceTree = "<group>"; };
-		738709F32A29161500B78220 /* HologramEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HologramEffect.swift; sourceTree = "<group>"; };
+		730341B32A2923F800A146F7 /* CreditCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730341B62A2923F800A146F7 /* CreditCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardApp.swift; sourceTree = "<group>"; };
+		730341B82A2923F800A146F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		730341BA2A2923F800A146F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730341BD2A2923F800A146F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		738709DB2A2912F400B78220 /* Frameworks */ = {
+		730341B02A2923F700A146F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		738709D52A2912F400B78220 = {
+		730341AA2A2923F700A146F7 = {
 			isa = PBXGroup;
 			children = (
-				738709E02A2912F500B78220 /* Hologram */,
-				738709DF2A2912F500B78220 /* Products */,
+				730341B52A2923F800A146F7 /* CreditCard */,
+				730341B42A2923F800A146F7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		738709DF2A2912F500B78220 /* Products */ = {
+		730341B42A2923F800A146F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				738709DE2A2912F500B78220 /* Hologram.app */,
+				730341B32A2923F800A146F7 /* CreditCard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		738709E02A2912F500B78220 /* Hologram */ = {
+		730341B52A2923F800A146F7 /* CreditCard */ = {
 			isa = PBXGroup;
 			children = (
-				738709E12A2912F500B78220 /* HologramApp.swift */,
-				738709E32A2912F500B78220 /* ContentView.swift */,
-				738709F12A2915EC00B78220 /* HologramView.swift */,
-				738709EF2A29142C00B78220 /* HologramShape.swift */,
-				738709F32A29161500B78220 /* HologramEffect.swift */,
-				738709E52A2912F500B78220 /* Assets.xcassets */,
-				738709E72A2912F500B78220 /* Preview Content */,
+				730341B62A2923F800A146F7 /* CreditCardApp.swift */,
+				730341B82A2923F800A146F7 /* ContentView.swift */,
+				730341BA2A2923F800A146F7 /* Assets.xcassets */,
+				730341BC2A2923F800A146F7 /* Preview Content */,
 			);
-			path = Hologram;
+			path = CreditCard;
 			sourceTree = "<group>";
 		};
-		738709E72A2912F500B78220 /* Preview Content */ = {
+		730341BC2A2923F800A146F7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				738709E82A2912F500B78220 /* Preview Assets.xcassets */,
+				730341BD2A2923F800A146F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		738709DD2A2912F400B78220 /* Hologram */ = {
+		730341B22A2923F700A146F7 /* CreditCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 738709EC2A2912F500B78220 /* Build configuration list for PBXNativeTarget "Hologram" */;
+			buildConfigurationList = 730341C12A2923F800A146F7 /* Build configuration list for PBXNativeTarget "CreditCard" */;
 			buildPhases = (
-				738709DA2A2912F400B78220 /* Sources */,
-				738709DB2A2912F400B78220 /* Frameworks */,
-				738709DC2A2912F400B78220 /* Resources */,
+				730341AF2A2923F700A146F7 /* Sources */,
+				730341B02A2923F700A146F7 /* Frameworks */,
+				730341B12A2923F700A146F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Hologram;
-			productName = Hologram;
-			productReference = 738709DE2A2912F500B78220 /* Hologram.app */;
+			name = CreditCard;
+			productName = CreditCard;
+			productReference = 730341B32A2923F800A146F7 /* CreditCard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		738709D62A2912F400B78220 /* Project object */ = {
+		730341AB2A2923F700A146F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					738709DD2A2912F400B78220 = {
+					730341B22A2923F700A146F7 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 738709D92A2912F400B78220 /* Build configuration list for PBXProject "Hologram" */;
+			buildConfigurationList = 730341AE2A2923F700A146F7 /* Build configuration list for PBXProject "CreditCard" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 738709D52A2912F400B78220;
-			productRefGroup = 738709DF2A2912F500B78220 /* Products */;
+			mainGroup = 730341AA2A2923F700A146F7;
+			productRefGroup = 730341B42A2923F800A146F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				738709DD2A2912F400B78220 /* Hologram */,
+				730341B22A2923F700A146F7 /* CreditCard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		738709DC2A2912F400B78220 /* Resources */ = {
+		730341B12A2923F700A146F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				738709E92A2912F500B78220 /* Preview Assets.xcassets in Resources */,
-				738709E62A2912F500B78220 /* Assets.xcassets in Resources */,
+				730341BE2A2923F800A146F7 /* Preview Assets.xcassets in Resources */,
+				730341BB2A2923F800A146F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		738709DA2A2912F400B78220 /* Sources */ = {
+		730341AF2A2923F700A146F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				738709F02A29142C00B78220 /* HologramShape.swift in Sources */,
-				738709F42A29161500B78220 /* HologramEffect.swift in Sources */,
-				738709F22A2915EC00B78220 /* HologramView.swift in Sources */,
-				738709E42A2912F500B78220 /* ContentView.swift in Sources */,
-				738709E22A2912F500B78220 /* HologramApp.swift in Sources */,
+				730341B92A2923F800A146F7 /* ContentView.swift in Sources */,
+				730341B72A2923F800A146F7 /* CreditCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		738709EA2A2912F500B78220 /* Debug */ = {
+		730341BF2A2923F800A146F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		738709EB2A2912F500B78220 /* Release */ = {
+		730341C02A2923F800A146F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,14 +259,14 @@
 			};
 			name = Release;
 		};
-		738709ED2A2912F500B78220 /* Debug */ = {
+		730341C22A2923F800A146F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hologram/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -291,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.yusufcansglm.Hologram;
+				PRODUCT_BUNDLE_IDENTIFIER = io.yusufcansglm.CreditCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		738709EE2A2912F500B78220 /* Release */ = {
+		730341C32A2923F800A146F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hologram/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreditCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -319,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.yusufcansglm.Hologram;
+				PRODUCT_BUNDLE_IDENTIFIER = io.yusufcansglm.CreditCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		738709D92A2912F400B78220 /* Build configuration list for PBXProject "Hologram" */ = {
+		730341AE2A2923F700A146F7 /* Build configuration list for PBXProject "CreditCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				738709EA2A2912F500B78220 /* Debug */,
-				738709EB2A2912F500B78220 /* Release */,
+				730341BF2A2923F800A146F7 /* Debug */,
+				730341C02A2923F800A146F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		738709EC2A2912F500B78220 /* Build configuration list for PBXNativeTarget "Hologram" */ = {
+		730341C12A2923F800A146F7 /* Build configuration list for PBXNativeTarget "CreditCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				738709ED2A2912F500B78220 /* Debug */,
-				738709EE2A2912F500B78220 /* Release */,
+				730341C22A2923F800A146F7 /* Debug */,
+				730341C32A2923F800A146F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 738709D62A2912F400B78220 /* Project object */;
+	rootObject = 730341AB2A2923F700A146F7 /* Project object */;
 }
